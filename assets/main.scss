@@ -38,4 +38,15 @@ a:hover {
 }
 
 .page-content {
-  max-width:
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.pagination a {
+  color: #1a3d6b;
+}
