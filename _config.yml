@@ -26,13 +26,16 @@ baseurl: "/inside-the-train"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-paginate: 10
-paginate_path: /page:num/
+
 # Build settings
-remote_theme: "mmistakes/so-simple-theme"
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
