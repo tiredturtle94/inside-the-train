@@ -20,13 +20,14 @@
 
 title: Inside the Train
 description: >-
-  This is an archived blog covering the Students for Trump movement at Penn State, 2016-2017. 
+  This is an archived blog covering the Students for Trump movement at Penn State, 2016-2017.
   For historical reasons, I am preserving the posts of this site.
 baseurl: "/inside-the-train"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
+paginate: 10
+paginate_path: /page:num/
 # Build settings
 remote_theme: "mmistakes/so-simple-theme"
 plugins:
